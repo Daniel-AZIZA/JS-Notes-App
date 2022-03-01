@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+
+    font-family: "Poppins", sans-serif;
+
+    background-color: #7bdaf3;
+}
+
+.container
+{
+    padding: 1rem;
+}
+
+.bouton
+{
+    padding: 0.5rem 0.8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    width: fit-content;
+
+    float: right;
+
+    color: white;
+    background-color: #9ec862;
+
+    font-size: 0.8rem;
+}
+
+.bouton:hover
+{
+    cursor: pointer;
+}
+
+.fa-plus
+{
+    margin-right: 2px;
+}
+
+.notes
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note
+{
+    margin-top: 5vh;
+    margin-right: 3vw;
+    width: 24vw;
+
+    box-shadow: 1px 1px rgb(167, 165, 165);
+}
+
+.header_note
+{
+    width: inherit;   
+    height: 4vh;
+
+    background-color: #9ec862;
+}
+
+.fa-edit,
+.fa-trash-alt
+{
+    float: right;
+
+    margin-top: 10px;
+    margin-right: 17px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.writting
+{
+    background-color: white;
+    width: inherit;
+    height: 40vh;
+}
+
+.zoneToWrite
+{
+    border: none;
+    outline: none;
+
+    width: inherit;
+    height: inherit;
+}
